@@ -1,0 +1,26 @@
+{
+  "name": "toolrenter",
+  "version": "1.0.0",
+  "description": "Website that allows people to rent tools frmo their neighbors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarushpatil/toolRenter.git"
+  },
+  "author": "Aarush Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarushpatil/toolRenter/issues"
+  },
+  "homepage": "https://github.com/aarushpatil/toolRenter#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.2",
+    "nodemon": "^2.0.22"
+  }
+}
