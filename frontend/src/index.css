@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* Display tools */
+
+.tool-data {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.399);
+  max-width: 400px;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+
+.tool-data h2 {
+  color: #222222;
+  font-size: 24px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.tool-data h2::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #428bca;
+}
+
+.tool-data h4 {
+  color: #555555;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tool-data p {
+  color: #777777;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+/* Navbar */
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.Navbar-link {
+  text-decoration: none;
+}
+
+.Navbar h1,
+.Navbar h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: #428bca;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  color: #ffffff;
+}
+
+.Navbar h1:hover,
+.Navbar h2:hover {
+  background-color: #3071a9;
+}
+
+.tool-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tool-form h3 {
+  text-align: center;
+}
+
+.tool-form .form-group {
+  margin-bottom: 20px;
+}
+
+.tool-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tool-form input[type="text"],
+.tool-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tool-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tool-form button:hover {
+  background-color: #45a049;
+}
+
+.tool-form .error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
